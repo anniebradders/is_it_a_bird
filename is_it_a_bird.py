@@ -1,9 +1,3 @@
-# Run python -m venv venv
-
-# Run venv\Scripts\activate (Windows) or source venv/bin/activate (Mac)
-
-# Run pip install requests geocoder FlightRadarAPI airportsdata beautifulsoup4 in terminal
-
 import requests
 import random
 import geocoder
@@ -27,7 +21,7 @@ def get_flights_overhead():
         return []
 
     lat, lon = coordinates
-    bounds = fr_api.get_bounds_by_point(lat, lon, 7000)
+    bounds = fr_api.get_bounds_by_point(lat, lon, 11000)
     flights = fr_api.get_flights(bounds=bounds)
     data = []
 
