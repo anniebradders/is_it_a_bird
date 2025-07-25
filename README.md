@@ -23,7 +23,7 @@ Try to guess the **origin** or **destination** city of the planes above you!
    ```
 3. **Install dependencies**:
    ```bash
-   pip install requests geocoder FlightRadarAPI airportsdata beautifulsoup4
+   pip install -r requirements.txt
    ```
 4. **Run the game**:
    ```bash
@@ -33,7 +33,7 @@ Try to guess the **origin** or **destination** city of the planes above you!
 ## 🛠️ Future Plans
 
 - [x] Split logic into **classes** and **modules** for better structure
-- [ ] Add a `requirements.txt` file for easier setup
+- [x] Add a `requirements.txt` file for easier setup
 - [ ] Build a simple **GUI** (e.g. with Tkinter or PyQt)
 - [ ] Add a **retry/refresh option** if no flights are found
 

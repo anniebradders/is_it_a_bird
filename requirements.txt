@@ -1,0 +1,5 @@
+requests
+geocoder
+FlightRadarAPI
+airportsdata
+beautifulsoup4
