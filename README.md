@@ -27,7 +27,7 @@ Try to guess the **origin** or **destination** city of the planes above you!
    ```
 4. **Run the game**:
    ```bash
-   python main.py
+   python gui.py
    ```
 
 ## 🛠️ Future Plans
