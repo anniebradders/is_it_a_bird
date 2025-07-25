@@ -27,12 +27,12 @@ Try to guess the **origin** or **destination** city of the planes above you!
    ```
 4. **Run the game**:
    ```bash
-   python is_it_a_bird.py
+   python main.py
    ```
 
 ## 🛠️ Future Plans
 
-- [ ] Split logic into **classes** and **modules** for better structure
+- [x] Split logic into **classes** and **modules** for better structure
 - [ ] Add a `requirements.txt` file for easier setup
 - [ ] Build a simple **GUI** (e.g. with Tkinter or PyQt)
 - [ ] Add a **retry/refresh option** if no flights are found
